@@ -1,0 +1,5 @@
+
+<% posts.forEach((element) => { %>
+<h2> <%=element.title%> </h2>
+<p><%= element.body.substring(0,100)%>...<a href="/posts/<%=element.title%>"">read more </a></a></p>
+<% }); %>
